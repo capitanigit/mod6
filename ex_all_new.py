@@ -205,7 +205,7 @@ if __name__ == "__main__":
     # select_all(conn, "autos")
     # select_all(conn, "models")
     # select_where(conn, "models", marka_id=2)
-    update(conn, "models", 2, status="Ended")
+    # update(conn, "models", 2, status="Ended")
     # delete_where(conn, "models", id=3)
     # delete_all(conn, "models")
     conn.close()
